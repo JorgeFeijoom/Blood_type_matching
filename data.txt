@@ -1,0 +1,58 @@
+Maria:Female:20:Spain:N:A . ["A", "C"]           
+Olga:Female:20:Spain:N:B . ["B", "C"]
+Lucia:Female:20:Spain:N:Z . ["A", "Z", "C", "X"]
+Alba:Female:34:Spain:N:O . ["A", "B", "C", "O"]
+Esteban:Male:41:Uk:N:W . ["A", "Z", "B", "Y", "C", "X", "O", "W"]
+Lucas:Male:18:UK:N:X . ["C", "X"]
+Sara:Female:22:Spain:N:C . ["C"]
+Carlos:Male:47:USA:S:B . ["B", "C"]
+Estefania:Female:38:Belgium:S:B . ["B", "C"]
+Clara:Female:90:USA:S:Y . ["B", "Y", "C", "X"]
+Rodrigo:Male:22:Spain:N:B . ["B", "C"]
+Luis:Male:40:France:S:A . ["A", "C"]
+Alicia:Female:20:Spain:S:C . ["C"]
+Carmen:Female:34:Spain:S:Y . ["B", "Y", "C", "X"]
+Goyo:Male:41:UK:N:W . ["A", "Z", "B", "Y", "C", "X", "O", "W"]
+Jacobo:Male:18:UK:N:X . ["C", "X"]
+Ruth:Female:22:Mexico:S:A . ["A", "C"]
+Jason:Male:47:USA:N:O . ["A", "B", "C", "O"]
+Fatima:Female:38:Belgium:S:O . ["A", "B", "C", "O"]
+Kate:Female:90:USA:S:A . ["A", "C"]
+Ethan:Male:22:Spain:N:B . ["B", "C"]
+Pepe:Male:40:France:N:X . ["C", "X"]
+Ana:Female:20:Spain:S:W . ["A", "Z", "B", "Y", "C", "X", "O", "W"]
+Marta:Female:34:Spain:S:Z . ["A", "Z", "C", "X"]
+Adolfo:Male:41:UK:N:Z . ["A", "Z", "C", "X"]
+Gustavo:Male:18:UK:S:Z . ["A", "Z", "C", "X"]
+Susana:Female:22:Mexico:N:W . ["A", "Z", "B", "Y", "C", "X", "O", "W"]
+Jorge:Male:47:USA:N:O . ["A", "B", "C", "O"]
+Queralt:Female:38:Belgium:N:W . ["A", "Z", "B", "Y", "C", "X", "O", "W"]
+Jaime:Male:40:France:S:Y . ["B", "Y", "C", "X"]
+
+
+
+
+Sara:Female:22:Spain:N:C
+Carlos:Male:47:USA:S:B
+Estefania:Female:38:Belgium:S:B
+Clara:Female:90:USA:S:Y
+Rodrigo:Male:22:Spain:N:B
+Luis:Male:40:France:S:A
+Alicia:Female:20:Spain:S:C
+Carmen:Female:34:Spain:S:Y
+Goyo:Male:41:UK:N:W
+Jacobo:Male:18:UK:N:X
+Ruth:Female:22:Mexico:S:A
+Jason:Male:47:USA:N:O
+Fatima:Female:38:Belgium:S:O
+Kate:Female:90:USA:S:A
+Ethan:Male:22:Spain:N:B
+Pepe:Male:40:France:N:X
+Ana:Female:20:Spain:S:W
+Marta:Female:34:Spain:S:Z
+Adolfo:Male:41:UK:N:Z
+Gustavo:Male:18:UK:S:Z
+Susana:Female:22:Mexico:N:W
+Jorge:Male:47:USA:N:O
+Queralt:Female:38:Belgium:N:W
+Jaime:Male:40:France:S:Y
