@@ -1,4 +1,5 @@
-class READER
+class PROCESS
+  require_relative 'ITERATOR'
   $blood_compatibility = {"A" => ["A", "C"], # A+
         "Z" => [ "A", "Z", "C", "X" ], # A-
         "B" => ["B", "C"], # B+
@@ -11,6 +12,8 @@ class READER
   $group_type = {}
 
   def read
+    $t1 = Time.now
+
     #person = Hash.new
     person = []
     IO.foreach("dataset.txt") do |line|
@@ -23,6 +26,7 @@ class READER
   end
 
   def blood(person)
+    person = List.new(person)
     person_match = []
     person.each do |p|
        person_match.push(matches(p.last))
@@ -73,7 +77,6 @@ class READER
 
   def receivers(person)
     receivers_list = {}
-
     person.each do |p|
       name = []
       match = matches(p.last)
@@ -129,8 +132,16 @@ class READER
       first.map{ |x| rest.map{ |y| "#{x}#{y}" } }.flatten
     end
   end
+
+  def time_diff_milli(start, finish)
+    puts (finish - start) * 1000.0
+  end
 end
 
-c = READER.new
+c = PROCESS.new
 c.read
+
+$t2 = Time.now
+$msecs = c.time_diff_milli $t1, $t2
+
 
