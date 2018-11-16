@@ -1,8 +1,6 @@
 class MAIN
   require_relative 'PROCESS'
 
-  $t1 = Time.now  #Init procedure timestamp
-
   c = PROCESS.new #Run process
   c.read
 
@@ -13,4 +11,5 @@ class MAIN
       $msecs = c.time_diff_milli $t1, $t2
     end
   end
+
 end
